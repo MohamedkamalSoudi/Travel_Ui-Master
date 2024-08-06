@@ -204,7 +204,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                                   ),
                                   alignment: Alignment.center,
                                   child: Text(
-                                    activity.startTimes[0],
+                                    activity.startTimes[1],
                                   ),
                                 ),
                                 SizedBox(width: 10.0),
