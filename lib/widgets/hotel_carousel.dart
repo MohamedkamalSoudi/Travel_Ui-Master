@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print, use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 import 'package:travel_ui_master/models/hotel_model.dart';
 
@@ -34,7 +36,7 @@ class HotelCarousel extends StatelessWidget {
             ],
           ),
         ),
-        Container(
+        SizedBox(
           height: 300.0,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -93,7 +95,7 @@ class HotelCarousel extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.0),
-                        boxShadow: [
+                        boxShadow:const  [
                           BoxShadow(
                             color: Colors.black26,
                             offset: Offset(0.0, 2.0),

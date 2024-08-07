@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, sized_box_for_whitespace
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:travel_ui_master/models/destination_model.dart';
@@ -96,7 +98,7 @@ class DestinationCarousel extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20.0),
-                          boxShadow: [
+                          boxShadow:const [
                             BoxShadow(
                               color: Colors.black26,
                               offset: Offset(0.0, 2.0),
